@@ -44,6 +44,7 @@ läslistan-testprojekt/
 ├── STORIES.md             # User stories
 └── README.md              # Denna fil
 ```
+
 ## Github Actions
 Detta projekt innehåller en GitHub Action som automatiskt kör testerna varje gång en commit görs till huvudgrenen main. Detta säkerställer att alla tester körs och att inga nya fel introduceras i koden.
 
