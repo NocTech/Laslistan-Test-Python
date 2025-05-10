@@ -171,11 +171,11 @@ def step_impl(context, book_title):
     assert is_in_my_books, f"Boken '{book_title}' finns inte i fliken 'Mina böcker'"
 
 
-@when(u'användaren går till fliken "Katalog"')
-def step_impl(context):
-    """Navigerar till fliken 'Katalog'."""
+@when(u'användaren går till fliken "{navigate}"')
+def step_impl(context, navigate):
+    """Navigerar till en specifik flik."""
     base_page = BasePage(context.page)
-    base_page.navigate_to_menu_item("Katalog")
+    base_page.navigate_to_menu_item(navigate)
 
 
 @when(u'användaren klickar på hjärtikonen för boken "{book_title}" igen')

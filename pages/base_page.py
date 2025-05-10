@@ -61,6 +61,10 @@ class BasePage:
         page = self.page
         heart = page.get_by_test_id(f"star-{book_title}")
         heart.click()
+
+    def is_book_in_my_books(self, book_title):
+        """Kontrollerar om en specifik bok finns i fliken 'Mina böcker'."""
+        return self.page.is_visible(f"text={book_title}")
         
 
 
