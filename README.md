@@ -12,14 +12,10 @@ Följande funktionalitet testas i detta projekt:
 
 2. **Katalogfunktionalitet**
    - Visa katalog med böcker
-   - Filtrera böcker efter genre
-   - Söka efter böcker med sökfunktionen
    - Lägga till böcker från katalogen till Min Läslista
 
 3. **Min Läslista-funktionalitet**
    - Visa böcker i Min Läslista
-   - Ta bort böcker från Min Läslista
-   - Markera böcker som lästa/olästa
 
 4. **Lägg till bok-funktionalitet**
    - Lägga till en ny bok med titel, författare och genre
@@ -100,4 +96,4 @@ behave features/catalog.feature
 För att köra tester med tagg:
 ```bash
 behave --tags=@smoke
-```c
+```

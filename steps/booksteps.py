@@ -178,8 +178,3 @@ def step_impl(context, navigate):
     base_page.navigate_to_menu_item(navigate)
 
 
-@when(u'användaren klickar på hjärtikonen för boken "{book_title}" igen')
-def step_impl(context, book_title):
-    """Klickar på hjärtikonen för en specifik bok igen."""
-    catalog_page = BasePage(context.page)
-    catalog_page.click_favorite_icon(book_title)

@@ -17,10 +17,6 @@
 **Så att** jag kan utforska vilka böcker som finns att välja bland
 
 **Som** användare  
-**Vill jag** kunna filtrera böcker efter genre  
-**Så att** jag lättare kan hitta böcker som matchar mina intressen
-
-**Som** användare  
 **Vill jag** kunna söka efter böcker med en sökfunktion  
 **Så att** jag snabbt kan hitta specifika böcker jag är intresserad av
 
@@ -49,5 +45,9 @@
 **Så att** jag kan inkludera böcker som inte redan finns i katalogen
 
 **Som** användare  
-**Vill jag** att formuläret validerar min inmatning  
-**Så att** jag inte kan skapa ofullständiga eller felaktiga bokposter
+**Vill jag** se ett formulär för att lägga till en bok
+**Så att** jag kan ange titel, författare för boken
+
+**Som** användare  
+**Vill jag** se ett formulär för att lägga till en bok
+**Så att** jag kan ange titel, författare och för boken
